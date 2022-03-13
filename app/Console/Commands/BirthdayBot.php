@@ -38,7 +38,7 @@ class BirthdayBot extends Command
 
         fclose($file);
         $telegram->sendMessage([
-            'chat_id' => 307598748,
+            'chat_id' => env('TELEGRAM_CHAT_ID'),
             'text' => $text,
             'parse_mode' => 'HTML'
         ]);
