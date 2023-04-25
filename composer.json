@@ -23,6 +23,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
+            "Api\\": "src/Api",
             "Shared\\": "src/Shared",
             "Matt\\": "src/Matt",
             "Database\\Factories\\": "database/factories/",

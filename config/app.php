@@ -175,8 +175,14 @@ return [
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
+        // Route providers declarations.
         App\Providers\RouteServiceProvider::class,
+        \Api\Birthday\Infrastructure\Providers\RoutesServiceProvider::class,
+
+        // Services providers declaration.
         \Shared\Storage\Infrastructure\Provider\ServicesProvider::class,
+
+        // Repositories providers declarations.
         \Matt\Birthday\Infrastructure\Provider\RepositoriesProvider::class
     ],
 
